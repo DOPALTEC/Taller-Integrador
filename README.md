@@ -38,7 +38,7 @@ Computadora o microcontrolador – Procesa los datos y puede ejecutar software A
 
 This firmware is for using ESP32 based boards with LoRa Modules and GPS to live in the APRS world.
 
-![Screenshot](https://github.com/richonguzman/LoRa_APRS_iGate/blob/main/images/iGateOledScreen.jpeg)
+![Screenshot](https://github.com/DOPALTEC/Taller-Integrador/blob/main/lora.jpg)
 
 __(This iGate Firmware works with all LoRa Tracker Firmwares (specially this <a href="https://github.com/richonguzman/LoRa_APRS_Tracker" target="_blank">LoRa APRS Tracker Firmware</a>))__
 <br />
