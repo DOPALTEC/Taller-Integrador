@@ -1,8 +1,8 @@
 # Taller Integrador Grupo 1
 
-David Obando Pereira
-Daniel Quesada Camacho
-Federico Rivera Moya
+- David Obando Pereira
+- Daniel Quesada Camacho
+- Federico Rivera Moya
 
 # APRS
 
