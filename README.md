@@ -40,4 +40,7 @@ This firmware is for using ESP32 based boards with LoRa Modules and GPS to live 
 
 ![Screenshot](https://github.com/DOPALTEC/Taller-Integrador/blob/main/lora.jpg)
 
+# Bill of Materials (BOM)
+Considerar horas. Presentar horas de trabajo y con el presupuesto. 
+
 
