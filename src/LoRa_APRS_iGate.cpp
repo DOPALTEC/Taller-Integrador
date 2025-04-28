@@ -15,9 +15,9 @@
                 ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
 
 
-                       Ricardo Guzman - CA2RXU 
-          https://github.com/richonguzman/LoRa_APRS_Tracker
-             (donations : http://paypal.me/richonguzman)
+                Taller Integrador Grupo 1 - CA2RXU 
+          https://github.com/DOPALTEC/Taller-Integrador
+             
 ___________________________________________________________________*/
 
 #include <ElegantOTA.h>

@@ -1,16 +1,21 @@
 {
-    "callsign": "NOCALL-10",
+    "callsign": "TI0IE1-10",
     "wifi": {
         "autoAP": {
             "password": "1234567890",
             "timeout": 10
         },
-        "AP": []
+        "AP": [
+            {
+                "SSID": "FARIMO",
+                "password": "204930945"
+            }
+        ]
     },
     "beacon": {
-        "latitude": 0.0,
-        "longitude": 0.0,
-        "comment": "LoRa iGATE Grupo 1",
+        "latitude": 10.0826667,
+        "longitude": -84.4740803,
+        "comment": "LoRa iGate Grupo 1",
         "interval": 15,
         "overlay": "L",
         "symbol": "a",
@@ -20,7 +25,7 @@
     },
     "aprs_is": {
         "active": false,
-        "passcode": "XYZVW",
+        "passcode": "21203",
         "server": "rotate.aprs2.net",
         "port": 14580,
         "filter": "m/10",
