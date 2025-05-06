@@ -90,7 +90,7 @@ namespace GPS_Utils {
     }
 
     void generateBeacons() {
-        if (Config.callsign.indexOf("NOCALL-10") != 0 && !Utils::checkValidCallsign(Config.callsign)) {
+        if (Config.callsign.indexOf("TI0IE1-10") != 0 && !Utils::checkValidCallsign(Config.callsign)) {
             displayShow("***** ERROR ******", "CALLSIGN = NOT VALID!", "", "Only Rx Mode Active", 3000);
             Config.loramodule.txActive  = false;
             Config.aprs_is.messagesToRF = false;

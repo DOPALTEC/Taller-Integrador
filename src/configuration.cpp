@@ -142,7 +142,7 @@ bool Configuration::readFile() {
         wifiAutoAP.password             = data["wifi"]["autoAP"]["password"] | "1234567890";
         wifiAutoAP.timeout              = data["wifi"]["autoAP"]["timeout"] | 10;
 
-        callsign                        = data["callsign"] | "NOCALL-10";
+        callsign                        = data["callsign"] | "TI0IE1-10";
         rememberStationTime             = data["other"]["rememberStationTime"] | 30;
 
         beacon.latitude                 = data["beacon"]["latitude"] | 0.0;
@@ -250,28 +250,28 @@ bool Configuration::readFile() {
 void Configuration::init() {
 
     WiFi_AP wifiap;
-    wifiap.ssid                     = "";
-    wifiap.password                 = "";
+    wifiap.ssid                     = "FARIMO";
+    wifiap.password                 = "204930945";
 
     wifiAPs.push_back(wifiap);
 
     wifiAutoAP.password             = "1234567890";
     wifiAutoAP.timeout              = 10;
 
-    callsign                        = "N0CALL-10";
+    callsign                        = "TI0IE1-10";
 
-    beacon.comment                  = "LoRa APRS";
-    beacon.latitude                 = 0.0;
-    beacon.longitude                = 0.0;
+    beacon.comment                  = "LoRa iGate - https://github.com/DOPALTEC/Taller-Integrador";
+    beacon.latitude                 = 10.0826667;
+    beacon.longitude                = -84.4740803;
     beacon.interval                 = 15;
     beacon.overlay                  = "L";
     beacon.symbol                   = "a";
     beacon.sendViaAPRSIS            = true;
-    beacon.sendViaRF                = false;
+    beacon.sendViaRF                = true;
     beacon.path                     = "WIDE1-1";
 
-    beacon.gpsActive                = false;
-    beacon.gpsAmbiguity             = false;
+    beacon.gpsActive                = true;
+    beacon.gpsAmbiguity             = true;
 
     digi.mode                       = 0;
     digi.ecoMode                    = false;
@@ -280,13 +280,13 @@ void Configuration::init() {
     tnc.enableSerial                = false;
     tnc.acceptOwn                   = false;
 
-    aprs_is.active                  = false;
-    aprs_is.passcode                = "XYZVW";
+    aprs_is.active                  = true;
+    aprs_is.passcode                = "21203";
     aprs_is.server                  = "rotate.aprs2.net";
     aprs_is.port                    = 14580;
     aprs_is.filter                  = "m/10";
-    aprs_is.messagesToRF            = false;
-    aprs_is.objectsToRF             = false;
+    aprs_is.messagesToRF            = true;
+    aprs_is.objectsToRF             = true;
 
     loramodule.txFreq               = 433775000;
     loramodule.rxFreq               = 433775000;
@@ -294,7 +294,7 @@ void Configuration::init() {
     loramodule.signalBandwidth      = 125000;
     loramodule.codingRate4          = 5;
     loramodule.power                = 20;
-    loramodule.txActive             = false;
+    loramodule.txActive             = true;
     loramodule.rxActive             = true;
 
     display.alwaysOn                = true;
